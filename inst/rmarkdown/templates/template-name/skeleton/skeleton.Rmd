@@ -1,0 +1,27 @@
+---
+title: "**Draft Article**"
+author: 
+  - Vladimir Enrique Medenica^[Assistant Professor, Department of Political Science and International Relations, University of Delaware, 18 Amstel Ave., 347 Smith Hall, Newark, DE 19716, <medenica@udel.edu>]
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+abstract: "text \\linebreak \\par \\textbf{Keywords:} a, b"
+output: pdf_document
+geometry: margin=1in
+header-includes:
+  - \pagenumbering{gobble}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+\pagenumbering{arabic}
+
+## Adding an RMarkdown Template
+
+This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
+
+This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
+
+Finally, be sure to remove this message!
